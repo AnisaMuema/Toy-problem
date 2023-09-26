@@ -1,3 +1,4 @@
+// creating a variable with a function value, that accepts inputs
 let studentsGrade = function(score, total){
     let percentage = (score/total)*100
     let gradeLetter = '';
@@ -20,6 +21,6 @@ let studentsGrade = function(score, total){
       
     return `You got ${gradeLetter}. ${percentage}%`
   }
-
+// Here is where you input the score and the total value
   let results = studentsGrade();
   console.log(results);
